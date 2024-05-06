@@ -1,0 +1,16 @@
+body{
+    background-color: rgba(31, 43, 173, 0.384);
+}
+
+header{
+    border-radius: 20px;
+}
+
+.f{
+    display: flex;
+    flex-direction: row;
+    
+}
+div{
+    margin-right: 28%;
+}
