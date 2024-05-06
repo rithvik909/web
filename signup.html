@@ -1,1 +1,72 @@
-signup
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cognine signup</title>
+    <link rel="icon" type="image/jpg" href="images/favicon-32x32.jpg">
+    <link rel="stylesheet" href="stylesamples.css"
+</head>
+<body>
+<style>
+    div {
+        background-color: rgb(14, 2, 183);
+        width: 50%;
+        height: 40%;
+        border: 50px solid;
+        border-radius: 30px;
+        padding: 5px;
+        margin: 10% 20% 25% 14%;
+    }   
+</style>
+<header style="background-color: rgb(21, 21, 180);">
+    <center>
+        <br>
+    <img src="images/download.png" width="50%" >
+    <h1 style="font-size: 250%;"> signup page</h1>
+    </center>
+    <a href="" title="takes to home page">
+        <button class="btn btn-success btn-sm float-end">
+            Home
+        </button>
+    </a>
+    <hr>
+    </header>
+
+<div>
+    <form action="index.php" method="post">
+        <label for="name" style="background-color:rgb(222, 184, 35);" >Username:*</label>
+        <input type="text" placeholder="Rithvik G" required><br><br>
+
+        <label for="email" style="background-color:rgb(222, 184, 35);" >Mail ID:*</label>
+        <input type="email" placeholder="ABCD@xyz.com" required><br><br>
+
+        <label for="password" style="background-color:rgb(214, 177, 66)">password:*</label>
+        <input type="password"required><br><br>
+
+        <label for="password" style="background-color:rgb(214, 177, 66)">re-type password:*</label>
+        <input type="password"required><br><br>
+
+        <label for="ph-no" style="background-color:rgb(214, 177, 66)">phone no:*</label>
+        <input type="tel" placeholder="+91-987654321" pattern="[0-9]{10}" required><br><br>
+
+        <label for="bday" style="background-color:rgb(214, 177, 66)">DOB*</label>
+        <input type="date" required><br><br>
+
+        <label for="gender" style="background-color:rgb(222, 184, 35);" >Gender:*</label><br>
+        <input type="radio" name="gender">
+        <label for="mr" style="background-color:rgb(222, 184, 35);" >Male</label><br>
+        <input type="radio" name="gender">
+        <label for="ms" style="background-color:rgb(222, 184, 35);" >female</label><br>
+        <input type="radio" name="gender">
+        <label for="other" style="background-color:rgb(222, 184, 35);" >other</label><br><br>
+
+
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+    
+</div>
+</body>
+</html>

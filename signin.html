@@ -1,1 +1,44 @@
-sign in
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cognine signin</title>
+    <link rel="icon" type="image/jpg" href="images/favicon-32x32.jpg">
+</head>
+<body>
+<style>
+    div {
+        background-color: rgb(14, 2, 183);
+        width: 50%;
+        height: 40%;
+        border: 50px solid;
+        border-radius: 30px;
+        padding: 50px;
+        margin: 2% 20% 25% 18%;
+    }   
+</style>
+<header style="background-color: rgb(21, 21, 180);">
+<center>
+    <br>
+<img src="images/download.png" width="50%" >
+<h1 style="font-size: 250%;"> signin page</h1>
+<hr>
+</center>
+</header>
+<div>
+    <form action="index.php" method="post">
+        <label for="email" style="background-color:rgb(222, 184, 35);" >Mail ID:*</label>
+        <input type="email" id="email" placeholder="ABCD@xyz.com" required><br><br>
+
+        <label for="password" style="background-color:rgb(214, 177, 66)">password:*</label>
+        <input type="password" id="password" minlength="8" required><br><br>
+
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+    
+</div>
+</body>
+</html>
